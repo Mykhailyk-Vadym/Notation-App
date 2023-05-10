@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.a788b3aa.css","mappings":"AAAA,eAKE,qBAAuB,CACvB,kBAAmB,CAHnB,WAAY,CADZ,eAAgB,CAEhB,YAAa,CAHb,SAMF","sources":["styles/App.css"],"sourcesContent":[".mainContainer {\n  width: 90%;\n  min-width: 300px;\n  margin: auto;\n  padding: 10px;\n  border: 1px solid black;\n  border-radius: 10px;\n}\n"],"names":[],"sourceRoot":""}

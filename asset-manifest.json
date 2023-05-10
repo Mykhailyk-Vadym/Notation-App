@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/Notation-App/static/js/main.cac2d636.js",
+    "main.css": "/Notation-App/static/css/main.a788b3aa.css",
+    "main.js": "/Notation-App/static/js/main.a35c80d3.js",
     "index.html": "/Notation-App/index.html",
-    "main.cac2d636.js.map": "/Notation-App/static/js/main.cac2d636.js.map"
+    "main.a788b3aa.css.map": "/Notation-App/static/css/main.a788b3aa.css.map",
+    "main.a35c80d3.js.map": "/Notation-App/static/js/main.a35c80d3.js.map"
   },
   "entrypoints": [
-    "static/js/main.cac2d636.js"
+    "static/css/main.a788b3aa.css",
+    "static/js/main.a35c80d3.js"
   ]
 }
