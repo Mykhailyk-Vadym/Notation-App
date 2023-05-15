@@ -8,19 +8,25 @@ export const App = () => {
   return (
     <div className="mainContainer">
       <header>
-        <button>
+        <button 
+          onClick={() => console.log('notation created')}
+        >
           +
         </button>
 
-        <button>
+        <button 
+          onClick={() => console.log('notation deleted')}
+        >
           delete
         </button>
 
-        <button>
-          Create new notation
+        <button 
+          onClick={() => console.log('edit notation')}
+        >
+          edit notation
         </button>
 
-        <input type="text" />
+        <input type="text" placeholder='Search' />
       </header>
       <nav>
         Notations
