@@ -1,8 +1,36 @@
-.mainContainer {
+.Container {
   width: 90%;
   min-width: 300px;
   margin: auto;
   padding: 10px;
   border: 1px solid black;
   border-radius: 10px;
+}
+
+.Container-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: solid black 2px;
+  padding-bottom: 10px;
+}
+
+.Container-header-leftside {
+  margin-right: 10px;
+}
+
+.Container-header-leftside-button:not(:last-child) {
+  margin-right: 8px;
+}
+
+.Container-main-navigation {
+  display: inline-block;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid black;
+  min-width: 20%;
+}
+
+.Container-main-content {
+  display: inline-block;
 }

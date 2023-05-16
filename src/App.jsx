@@ -6,33 +6,40 @@ export const App = () => {
   const [visibleNotation, setVisibleNotation] = useState([]);
 
   return (
-    <div className="mainContainer">
-      <header>
-        <button 
-          onClick={() => console.log('notation created')}
-        >
-          +
-        </button>
+    <div className="Container">
+      <header className="Container-header">
+        <div className="Container-header-leftside">
+          <button
+            className="Container-header-leftside-button"
+            onClick={() => console.log('notation created')}
+          >
+            +
+          </button>
 
-        <button 
-          onClick={() => console.log('notation deleted')}
-        >
-          delete
-        </button>
+          <button
+            className="Container-header-leftside-button"
+            onClick={() => console.log('notation deleted')}
+          >
+            delete
+          </button>
 
-        <button 
-          onClick={() => console.log('edit notation')}
-        >
-          edit notation
-        </button>
+          <button
+            className="Container-header-leftside-button" 
+            onClick={() => console.log('edit notation')}
+          >
+            edit notation
+          </button>
+        </div>
 
-        <input type="text" placeholder='Search' />
+        <input type="text" name='serach' placeholder='Search' />
       </header>
-      <nav>
-        Notations
-      </nav>
-      <main>
-        notation content
+      <main className="Container-main">
+        <nav className="Container-main-navigation">
+          Notations
+        </nav>
+        <div className="Container-main-content">
+          notation content
+        </div>
       </main>
     </div>
   );
